@@ -110,7 +110,8 @@ run_analysis <- function(file_holder_path) {
     
     #tidy_data <- aggregate(.~subject_id+activity_label, extract_data, FUN=mean)
     tidy_data <- aggregate(.~activity_label+subject_id, extract_data, FUN=mean)
-    write.table(tidy_data, "./tidy_data.txt", row.name=FALSE)
+    tidy_data_file_path <- paste(file_holder_path, "/tidy_data.txt", sep="")
+    write.table(tidy_data, tidy_data_file_path, row.name=FALSE)
     tidy_data
     
     
