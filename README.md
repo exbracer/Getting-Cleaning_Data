@@ -45,7 +45,7 @@ The file of the script is ***run_analysis.R***, you just should do the command b
 If your ***UCI HAR Dataset*** fold's directory is "~/Documents/course/getting-cleaning_data/projects/UCI HAR Dataset", just call:  
 `source("run_analysis.R")`  
 `tidy_data <- run_analysis("~/Documents/course/getting-cleaning_data/projects/UCI HAR Dataset")`  
-If you want to check the tidy data set, just execute the following instruction:
+If you want to check the tidy data set, just execute the following instruction: 
 `View(tidy_data)`
 
 
