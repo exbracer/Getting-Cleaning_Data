@@ -10,8 +10,9 @@
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average 
 # of each variable for each activity and each subject.
 
-run_analysis <- function(file_holder_path) {
+run_analysis <- function() {
     
+    file_holder_path = "./UCI HAR Dataset"
     # Step 0
     # Initialized work. Just get the directory of each file needed ready and read the 
     # data of the activity_labels.txt and features.txt
